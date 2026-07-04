@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/logo.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Mars</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <a href="#" class="logo">
+                        <div class="logo__img"><img src="img/logo.svg" alt="logo"></div>
+                        <span class="logo-text">Mission Mars</span>
+                    </a>
+                </div>
+                <nav class="header__menu menu">
+                    <ul class="header__list menu__list">
+                        <li><a class="menu__link" href="#about">About Mars</a></li>
+                        <li><a class="menu__link" href="#mission">Missions</a></li>
+                        <li><a class="menu__link" href="#virtual">Virtual Tour</a></li>
+                        <li><a class="menu__link" href="#colony">Colonization</a></li>
+                        <li><a class="menu__link" href="#join">Join Us</a></li>
+                    </ul>
+                </nav>
+                <div data-da=".menu,424, last" class="header__button">
+                    <button class="header__btn button--orange">Start Journey</button>
+                </div>
+                <div class="menu__icon"><span></span></div>
+            </div>
+        </header>
+        <div class="overlay"></div>
+        <main class="main">
+            <section class="hero">
+                <div class="hero__img"><img src="img/hero-bg.jpg" alt="bg"></div>
+                <div class="hero__container">
+                    <h1 class="hero__title">WELCOME TO MARS</h1>
+                    <div class="hero__subtitle">
+                        <p>
+                            Discover the Red Planet like never before. Explore the mysteries of our
+                            neighboring world and prepare for humanity's next giant leap.
+                        </p>
+                    </div>
+                    <div class="hero__button"><button class="hero__btn button--orange">Start Your Journey</button></div>
+                    <a href="#next" class="hero__arrow __img"><img src="img/arrow-down.svg" alt="arrow"></a>
+                </div>
+            </section>
+            <section id="about" class="about">
+                <div class="about__container">
+                    <h2 id="next" class="about__title title">ABOUT <span>MARS</span></h2>
+                    <div class="about__subtitle subtitle">
+                        <p>
+                            The fourth planet from the Sun and Earth's closest neighbor, Mars has captivated
+                            human imagination for centuries.
+                        </p>
+                    </div>
+                    <div class="about__items">
+                        <div class="about__img"><img src="img/about-img.jpg" alt="mars"></div>
+                        <div class="about__text">
+                            <div class="about__text-title">The Red Planet</div>
+                            <div class="about__text-caption">
+                                <p>
+                                    Mars is often called the "Red Planet" due to the iron oxide prevalent on its
+                                    surface,
+                                    giving it a reddish
+                                    appearance. Mars is a terrestrial planet with a thin atmosphere, with surface
+                                    features
+                                    reminiscent of
+                                    both the impact craters of the Moon and the valleys, deserts and polar ice caps of
+                                    Earth.
+                                </p>
+                                <p>
+                                    Mars has two moons, Phobos and Deimos, which are small and irregularly shaped. These
+                                    may
+                                    be
+                                    captured asteroids similar to 5261 Eureka, a Mars trojan.
+                                </p>
+                            </div>
+                            <div class="about__text-cards">
+                                <div class="about__text-card card">
+                                    <span>Distance from Sun</span>
+                                    <span class="card-value">227.9M km</span>
+                                </div>
+                                <div class="about__text-card card">
+                                    <span>Martian Day</span>
+                                    <span class="card-value">24.6 Hours</span>
+                                </div>
+                                <div class="about__text-card card">
+                                    <span>Martian Year</span>
+                                    <span class="card-value">687 Days</span>
+                                </div>
+                                <div class="about__text-card card">
+                                    <span>Gravity</span>
+                                    <span class="card-value">3.72 m/s²</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about__cards">
+                        <div class="about__card card">
+                            <div class="about__card-img card-img"><img src="img/about1.svg" alt="icon"></div>
+                            <div class="about__card-title card-title">Temperature</div>
+                            <div class="about__card-caption card-caption">
+                                <p>
+                                    Average -60°C (-80°F), with extremes from
+                                    -125°C (-195°F) to 20°C (70°F) at the
+                                    equator during summer.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__card card">
+                            <div class="about__card-img card-img"><img src="img/about2.svg" alt="icon"></div>
+                            <div class="about__card-title card-title">Atmosphere</div>
+                            <div class="about__card-caption card-caption">
+                                <p>
+                                    Thin atmosphere composed of 95%
+                                    carbon dioxide, 3% nitrogen, 1.6% argon,
+                                    and traces of oxygen and water.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__card card">
+                            <div class="about__card-img card-img"><img src="img/about3.svg" alt="icon"></div>
+                            <div class="about__card-title card-title">Geography</div>
+                            <div class="about__card-caption card-caption">
+                                <p>
+                                    Home to Olympus Mons, the largest
+                                    volcano in the solar system, and Valles
+                                    Marineris, a vast canyon system.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="about__card card">
+                            <div class="about__card-img card-img"><img src="img/about4.svg" alt="icon"></div>
+                            <div class="about__card-title card-title">Water</div>
+                            <div class="about__card-caption card-caption">
+                                <p>
+                                    Evidence suggests Mars once had
+                                    significant liquid water on its surface, with
+                                    potential subsurface water ice today.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="mission" class="timeline">
+                <div class="timeline__container">
+                    <h2 class="timeline__title title">MARS <span>MISSIONS </span>TIMELINE</h2>
+                    <div class="timeline__subtitle subtitle">
+                        <p>
+                            Humanity's journey to understand and explore the Red Planet spans decades of
+                            scientific achievement.
+                        </p>
+                    </div>
+                    <div class="timeline__items">
+                        <div class="timeline__card card">
+                            <div class="timeline__card-year">1965</div>
+                            <div class="timeline__card-title card-title">Mariner 4</div>
+                            <div class="timeline__card-caption card-caption">
+                                <p>
+                                    First successful Mars flyby,
+                                    capturing the first close-up
+                                    images of another planet from
+                                    deep space.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline__card card">
+                            <div class="timeline__card-year">1976</div>
+                            <div class="timeline__card-title card-title">Viking 1 & 2</div>
+                            <div class="timeline__card-caption card-caption">
+                                <p>
+                                    First successful Mars landers,
+                                    conducting experiments to
+                                    search for evidence of life.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline__card card">
+                            <div class="timeline__card-year">1997</div>
+                            <div class="timeline__card-title card-title">Mars Pathfinder</div>
+                            <div class="timeline__card-caption card-caption">
+                                <p>
+                                    Delivered the Sojourner rover,
+                                    the first wheeled vehicle to
+                                    operate on another planet.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline__card card">
+                            <div class="timeline__card-year">2000</div>
+                            <div class="timeline__card-title card-title">Spirit & Opportunity</div>
+                            <div class="timeline__card-caption card-caption">
+                                <p>
+                                    Twin rovers that significantly
+                                    expanded our understanding of
+                                    Mars' geology and water history.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="timeline__card card">
+                            <div class="timeline__card-year">2012</div>
+                            <div class="timeline__card-title card-title">Curiosity Rover</div>
+                            <div class="timeline__card-caption card-caption">
+                                <p>
+                                    Car-sized rover equipped with
+                                    laboratory instruments to
+                                    analyze Martian soil and
+                                    atmosphere.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="future">
+                        <h3 class="future__title title">Future Mars Exploration</h3>
+                        <div class="future__items">
+                            <div class="future__card card">
+                                <div class="future__card-img card-img"><img src="img/fut1.svg" alt="icon"></div>
+                                <div class="future__card-title card-title">Advanced Propulsion</div>
+                                <div class="future__card-caption card-caption">
+                                    <p>
+                                        Development of nuclear thermal and plasma propulsion to
+                                        reduce travel time to Mars from months to weeks.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="future__card card">
+                                <div class="future__card-img card-img"><img src="img/fut2.svg" alt="icon"></div>
+                                <div class="future__card-title card-title">Habitat Construction</div>
+                                <div class="future__card-caption card-caption">
+                                    <p>
+                                        Research into 3D-printed habitats using Martian regolith and
+                                        underground structures to shield from radiation.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="future__card card">
+                                <div class="future__card-img card-img"><img src="img/fut3.svg" alt="icon"></div>
+                                <div class="future__card-title card-title">Terraforming Studies</div>
+                                <div class="future__card-caption card-caption">
+                                    <p>
+                                        Theoretical research into the possibility of transforming
+                                        Mars' environment to be more Earth-like over centuries.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="virtual" class="virtual">
+                <div class="virtual__container">
+                    <h2 class="virtual__title title">VIRTUAL <span>TOUR</span></h2>
+                    <div class="virtual__subtitle subtitle">
+                        <p>
+                            Explore the most fascinating locations on the Martian surface through our interactive
+                            virtual tour.
+                        </p>
+                    </div>
+                    <div class="virtual__map">
+                        <div class="virtual__map-img __img"><img src="img/map.jpg" alt="map"></div>
+                        <div class="virtual__map-button">
+                            <button class="virtual__btn button--orange">Launch Interactive Map</button>
+                        </div>
+                    </div>
+                    <div class="virtual__cards">
+                        <div class="virtual__card card">
+                            <div class="virtual__card-img __img"><img src="img/vir1.jpg" alt="mars"></div>
+                            <div class="virtual__card-text">
+                                <div class="virtual__card-title card-title">Olympus Mons</div>
+                                <div class="virtual__card-caption card-caption">
+                                    <p>
+                                        The largest volcano in the solar system, standing nearly
+                                        three times the height of Mount Everest with a base the size
+                                        of Arizona.
+                                    </p>
+                                </div>
+                                <div class="virtual__card-button">
+                                    <button class="virtual__card-btn">Explore Location</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="virtual__card card">
+                            <div class="virtual__card-img __img"><img src="img/vir2.jpg" alt="mars"></div>
+                            <div class="virtual__card-text">
+                                <div class="virtual__card-title card-title">Valles Marineris</div>
+                                <div class="virtual__card-caption card-caption">
+                                    <p>
+                                        A vast system of canyons that runs along the Martian
+                                        equator, stretching as long as the United States is wide.
+                                    </p>
+                                </div>
+                                <div class="virtual__card-button">
+                                    <button class="virtual__card-btn">Explore Location</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="virtual__card card">
+                            <div class="virtual__card-img __img"><img src="img/vir3.jpg" alt="mars"></div>
+                            <div class="virtual__card-text">
+                                <div class="virtual__card-title card-title">Martian Poles</div>
+                                <div class="virtual__card-caption card-caption">
+                                    <p>
+                                        The north and south poles of Mars feature ice caps made of
+                                        water and carbon dioxide ice that grow and shrink with the
+                                        seasons.
+                                    </p>
+                                </div>
+                                <div class="virtual__card-button">
+                                    <button class="virtual__card-btn">Explore Location</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="virtual__card card">
+                            <div class="virtual__card-img __img"><img src="img/vir4.jpg" alt="mars"></div>
+                            <div class="virtual__card-text">
+                                <div class="virtual__card-title card-title">Gale Crater</div>
+                                <div class="virtual__card-caption card-caption">
+                                    <p>
+                                        Landing site of the Curiosity rover, this ancient crater shows
+                                        evidence of past lakes and streams on the Martian surface.
+                                    </p>
+                                </div>
+                                <div class="virtual__card-button">
+                                    <button class="virtual__card-btn">Explore Location</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="virtual__card card">
+                            <div class="virtual__card-img __img"><img src="img/vir5.jpg" alt="mars"></div>
+                            <div class="virtual__card-text">
+                                <div class="virtual__card-title card-title">Jezero Crater</div>
+                                <div class="virtual__card-caption card-caption">
+                                    <p>
+                                        Home to the Perseverance rover, this ancient lakebed
+                                        contains a river delta that may preserve signs of past
+                                        microbial life.
+                                    </p>
+                                </div>
+                                <div class="virtual__card-button">
+                                    <button class="virtual__card-btn">Explore Location</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="virtual__card card">
+                            <div class="virtual__card-img __img"><img src="img/vir6.jpg" alt="mars"></div>
+                            <div class="virtual__card-text">
+                                <div class="virtual__card-title card-title">Phobos & Deimos</div>
+                                <div class="virtual__card-caption card-caption">
+                                    <p>
+                                        Mars' two small, irregularly shaped moons, likely captured
+                                        asteroids that orbit close to the planet's surface.
+                                    </p>
+                                </div>
+                                <div class="virtual__card-button">
+                                    <button class="virtual__card-btn">Explore Location</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="virtual__button"><button class="button--orange">Experience VR Tour</button></div>
+                    <div class="virtual__footer">
+                        <p>
+                            Compatible with most VR headsets and desktop browsers
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="colony" class="colony">
+                <div class="colony__container">
+                    <h2 class="colony__title title">MAKING <span>MARS</span> HOME</h2>
+                    <div class="colony__subtitle subtitle">
+                        <p>
+                            Our comprehensive plan for establishing the first permanent human settlement on the
+                            Red Planet.
+                        </p>
+                    </div>
+                    <div class="colony__cards">
+                        <div class="colony__card card">
+                            <div class="colony__card-img card-img"><img src="img/colony1.svg" alt="icon"></div>
+                            <div class="colony__card-title card-title">Habitats</div>
+                            <div class="colony__card-caption card-caption">
+                                <p>
+                                    Modular, pressurized habitats with
+                                    radiation shielding, utilizing both
+                                    prefabricated components and 3D-printed
+                                    structures using local materials.
+                                </p>
+                            </div>
+                            <ul class="colony__card-list">
+                                <li class="colony__card-item">Underground construction for radiation
+                                    protection</li>
+                                <li class="colony__card-item">Self-healing materials for
+                                    micrometeorite impacts</li>
+                                <li class="colony__card-item">Expandable architecture for colony
+                                    growth</li>
+                            </ul>
+                        </div>
+                        <div class="colony__card card">
+                            <div class="colony__card-img card-img"><img src="img/colony2.svg" alt="icon"></div>
+                            <div class="colony__card-title card-title">Agriculture</div>
+                            <div class="colony__card-caption card-caption">
+                                <p>
+                                    Sustainable food production systems
+                                    using hydroponics, aeroponics, and
+                                    controlled environment agriculture to
+                                    provide fresh food for colonists.
+                                </p>
+                            </div>
+                            <ul class="colony__card-list">
+                                <li class="colony__card-item">LED lighting optimized for plant growth</li>
+                                <li class="colony__card-item">Closed-loop water and nutrient recycling</li>
+                                <li class="colony__card-item">Genetically optimized crops for Mars conditions</li>
+                            </ul>
+                        </div>
+                        <div class="colony__card card">
+                            <div class="colony__card-img card-img"><img src="img/colony3.svg" alt="icon"></div>
+                            <div class="colony__card-title card-title">Energy</div>
+                            <div class="colony__card-caption card-caption">
+                                <p>
+                                    Multi-source power generation combining
+                                    solar arrays, nuclear fission, and
+                                    advanced battery storage to ensure
+                                    reliable energy in all conditions.
+                                </p>
+                            </div>
+                            <ul class="colony__card-list">
+                                <li class="colony__card-item">Dust-resistant solar panel technology</li>
+                                <li class="colony__card-item">Small modular nuclear reactors</li>
+                                <li class="colony__card-item">Grid-scale solid-state battery storage</li>
+                            </ul>
+                        </div>
+                        <div class="colony__card card">
+                            <div class="colony__card-img card-img"><img src="img/colony4.svg" alt="icon"></div>
+                            <div class="colony__card-title card-title">Transportation</div>
+                            <div class="colony__card-caption card-caption">
+                                <p>
+                                    A fleet of vehicles designed for the Martian
+                                    environment, from pressurized rovers for
+                                    long-distance exploration to autonomous
+                                    drones for aerial surveys.
+                                </p>
+                            </div>
+                            <ul class="colony__card-list">
+                                <li class="colony__card-item">Pressurized long-range exploration
+                                    vehicles</li>
+                                <li class="colony__card-item">Autonomous construction and mining
+                                    robots</li>
+                                <li class="colony__card-item">Specialized drones for Martian
+                                    atmosphere</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="colony-timeline card">
+                        <h3 class="colony-timeline__title title">Colonization Timeline</h3>
+                        <div class="colony-timeline__items">
+                            <div class="colony-timeline__item">
+                                <div class="colony-timeline__caption">Phase 1: 2030-2035</div>
+                                <ul class="colony-timeline__list">
+                                    <li class="colony-timeline__item">Initial robotic missions to establish
+                                        infrastructure</li>
+                                    <li class="colony-timeline__item">Deployment of power generation systems</li>
+                                    <li class="colony-timeline__item">Construction of initial habitat modules</li>
+                                    <li class="colony-timeline__item">First crewed mission (temporary stay)</li>
+                                </ul>
+                            </div>
+                            <div class="colony-timeline__item">
+                                <div class="colony-timeline__caption">Phase 2: 2035-2045</div>
+                                <ul class="colony-timeline__list">
+                                    <li class="colony-timeline__item">Establishment of permanent base</li>
+                                    <li class="colony-timeline__item">Expansion of agricultural systems</li>
+                                    <li class="colony-timeline__item">Development of in-situ resource utilization</li>
+                                    <li class="colony-timeline__item">First children born on Mars</li>
+                                </ul>
+                            </div>
+                            <div class="colony-timeline__item">
+                                <div class="colony-timeline__caption">Phase 3: 2045-2060</div>
+                                <ul class="colony-timeline__list">
+                                    <li>Self-sustaining colony of 1,000+ people</li>
+                                    <li>Development of Martian industries</li>
+                                    <li>Multiple settlement locations</li>
+                                    <li>Initial atmospheric modification experiments</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="join" class="join">
+                <div class="join__container">
+                    <h2 class="join__title title">JOIN THE <span>MISSION</span></h2>
+                    <div class="join__subtitle subtitle">
+                        <p>
+                            Be part of humanity's greatest adventure as we take our first steps toward becoming a
+                            multi-planetary species.
+                        </p>
+                    </div>
+                    <div class="join__items">
+                        <div class="join__subscribe subscribe card">
+                            <div class="subscribe__title card-title">
+                                Subscribe for Updates
+                            </div>
+                            <div class="subscribe__subtitle">
+                                <p>
+                                    Stay informed about the latest developments in our Mars mission planning, technology
+                                    breakthroughs, and opportunities to get involved.
+                                </p>
+                            </div>
+                            <form action="#" class="subscribe__form">
+                                <label for="name" class="subscribe__form-label">Full Name</label>
+                                <input id="name" type="text" placeholder="Enter your name"
+                                    class="subscribe__form-input">
+                                <label for="email" class="subscribe__form-label">Email Address</label>
+                                <input id="email" type="text" placeholder="Enter your email"
+                                    class="subscribe__form-input">
+                                <div class="subscribe__form-caption">Areas of Interest</div>
+                                <div class="subscribe__form-radio">
+                                    <div class="subscribe__form-radio-body">
+                                        <input id="science" type="radio" name="science"
+                                            class="subscribe__form-radio-input">
+                                        <label for="science" class="subscribe__form-radio-label">
+                                            <span></span>
+                                            Science & Research</label>
+                                        <input id="Colonization" type="radio" name="science"
+                                            class="subscribe__form-radio-input">
+                                        <label for="Colonization"
+                                            class="subscribe__form-radio-label"><span></span>Colonization</label>
+                                    </div>
+                                    <div class="subscribe__form-radio-body">
+                                        <input id="Engineering" type="radio" name="science"
+                                            class="subscribe__form-radio-input">
+                                        <label for="Engineering"
+                                            class="subscribe__form-radio-label"><span></span>Engineering</label>
+                                        <input id="Education" type="radio" name="science"
+                                            class="subscribe__form-radio-input">
+                                        <label for="Education"
+                                            class="subscribe__form-radio-label"><span></span>Education</label>
+                                    </div>
+                                </div>
+                                <button type="submit" class="subscribe__form-btn button--orange">Subscribe Now</button>
+                            </form>
+                        </div>
+                        <div class="join__communiti">
+                            <div class="join__communiti-item communiti-join card">
+                                <div class="communiti-join__caption card-title">Community Programs</div>
+                                <div class="communiti-join__item">
+                                    <div class="communiti-join__img"><img src="img/comm1.svg" alt="icon"></div>
+                                    <div class="communiti-join__text">
+                                        <div class="communiti-join__title card-title">Mars Ambassador Program</div>
+                                        <div class="communiti-join__subtitle">
+                                            <p>
+                                                Join our network of passionate advocates who help educate the public
+                                                about Mars
+                                                exploration and colonization.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="communiti-join__item">
+                                    <div class="communiti-join__img"><img src="img/comm2.svg" alt="icon"></div>
+                                    <div class="communiti-join__text">
+                                        <div class="communiti-join__title card-title">Citizen Science Projects</div>
+                                        <div class="communiti-join__subtitle">
+                                            <p>
+                                                Contribute to real Mars research by analyzing data, identifying surface
+                                                features, or
+                                                participating in simulation studies.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="communiti-join__item">
+                                    <div class="communiti-join__img"><img src="img/comm3.svg" alt="icon"></div>
+                                    <div class="communiti-join__text">
+                                        <div class="communiti-join__title card-title">Mars Academy</div>
+                                        <div class="communiti-join__subtitle">
+                                            <p>
+                                                Online courses covering everything from Martian geology to life support
+                                                systems and
+                                                colonization strategies.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="join__communiti-item carrer-join card">
+                                <div class="communiti-join__caption card-title">Career Opportunities</div>
+                                <div class="carrer-join__subtitle">
+                                    <p>
+                                        We're building a diverse team of experts across multiple disciplines to make our
+                                        Mars
+                                        mission a reality.
+                                    </p>
+                                </div>
+                                <div class="carrer-join__card">
+                                    <div class="carrer-join__card-title">Aerospace Engineers</div>
+                                    <button class="carrer-join__card-button virtual__card-btn">Apply</button>
+                                </div>
+                                <div class="carrer-join__card">
+                                    <div class="carrer-join__card-title">Life Support Specialists</div>
+                                    <button class="carrer-join__card-button virtual__card-btn">Apply</button>
+                                </div>
+                                <div class="carrer-join__card">
+                                    <div class="carrer-join__card-title">Martian Geologists</div>
+                                    <button class="carrer-join__card-button virtual__card-btn">Apply</button>
+                                </div>
+                                <div class="carrer-join__card">
+                                    <div class="carrer-join__card-title">Habitat Architects</div>
+                                    <button class="carrer-join__card-button virtual__card-btn">Apply</button>
+                                </div>
+                                <div class="carrer-join__button"><button class="button--orange">View All
+                                        Positions</button></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer card">
+            <div class="footer__container">
+                <div class="footer__logo">
+                    <a href="#" class="logo logo-footer">
+                        <div class="logo__img footer__logo-img"><img src="img/logo.svg" alt="logo"></div>
+                        <span class="logo-text footer__logo-text">Mission Mars</span>
+                    </a>
+                    <div class="footer__logo-caption">
+                        <p>
+                            Pioneering the future of human civilization on
+                            Mars through innovation, collaboration, and the
+                            spirit of exploration.
+                        </p>
+                    </div>
+                    <div class="footer__logo-icons">
+                        <a href="#" class="footer__logo-icon"><img src="img/foot1.svg" alt="ico"></a>
+                        <a href="#" class="footer__logo-icon"><img src="img/foot2.svg" alt="ico"></a>
+                        <a href="#" class="footer__logo-icon"><img src="img/foot3.svg" alt="ico"></a>
+                        <a href="#" class="footer__logo-icon"><img src="img/foot4.svg" alt="ico"></a>
+                    </div>
+                </div>
+                <div class="footer__navigation">
+                    <div class="footer-title">Quick Links</div>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">About Us</a></li>
+                        <li><a href="#" class="footer__link">Our Mission</a></li>
+                        <li><a href="#" class="footer__link">Technology</a></li>
+                        <li><a href="#" class="footer__link">Latest News</a></li>
+                        <li><a href="#" class="footer__link">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer__navigation">
+                    <div class="footer-title">Resources</div>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link">Mars Research Papers</a></li>
+                        <li><a href="#" class="footer__link">Educational Materials</a></li>
+                        <li><a href="#" class="footer__link">Mars in the Media</a></li>
+                        <li><a href="#" class="footer__link">FAQ</a></li>
+                        <li><a href="#" class="footer__link">Support</a></li>
+                    </ul>
+                </div>
+                <div class="footer__navigation">
+                    <div class="footer-title">Resources</div>
+                    <ul class="footer__list">
+                        <li><a href="#" class="footer__link footer__contacts-link">
+                                <img src="img/footer-ico1.svg" alt="icon">
+                                <span>
+                                    123 Space Center Blvd, Houston, TX 77058,
+                                    USA
+                                </span>
+                            </a>
+                        </li>
+                        <li><a href="#" class="footer__link footer__contacts-link"><img src="img/footer-ico2.svg"
+                                    alt="icon"><span>
+                                    info@missionmars.com
+                                </span></a></li>
+                        <li><a href="#" class="footer__link footer__contacts-link"><img src="img/footer-ico3.svg"
+                                    alt="icon"><span>
+                                    +1 (800) MARS-123
+                                </span></a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
