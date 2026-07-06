@@ -819,6 +819,9 @@ font-size: 18px;
 }
 
 @media (max-height: 500px) {
+  .header__container{
+    justify-content: flex-start;
+  }
   .hero {
     padding-top: 100px;
   }
